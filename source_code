@@ -151,17 +151,19 @@ def controlWinStay():
 		print " "
 def prompExit():
 	global game_status
-	while True: #infinite loop
-		prompEx=int(input("If you want to play please enter 1 else 0"))
-		try:
-			prompEx= int(prompEx)
-			if prompEx ==1 or prompEx ==0:		
-				break
+	global player_money
+	if player_money>0
+		while True: #infinite loop
+			prompEx=int(input("If you want to play please enter 1 else 0"))
+			try:
+				prompEx= int(prompEx)
+				if prompEx ==1 or prompEx ==0:		
+					break
 		  #conditions true can get out
 					
-		except ValueError:  #error
-			print ("Please make sure that you enter a valid number")
-	game_status=prompEx
+			except ValueError:  #error
+				print ("Please make sure that you enter a valid number")
+		game_status=prompEx
 
 	
 #initial definitions

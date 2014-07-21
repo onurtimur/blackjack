@@ -152,7 +152,7 @@ def controlWinStay():
 def prompExit():
 	global game_status
 	global player_money
-	if player_money>0
+	if player_money>0:
 		while True: #infinite loop
 			prompEx=int(input("If you want to play please enter 1 else 0"))
 			try:

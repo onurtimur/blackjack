@@ -182,7 +182,7 @@ while game_status== 1:
 			while True: #infinite loop
 				player_bet = int(input("Please enter your bet"))
 				try:
-					if player_bet<=player_money:
+					if player_bet<=player_money and player_bet>=1:
 						player_bet= int(player_bet)
 						break  #conditions true can get out
 					

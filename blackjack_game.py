@@ -2,7 +2,7 @@ import random
 import sys
 
 
-"""Blackjack game for single player.It promps user whether to hit a new card or stand then calculates total card points.
+"""Blackjack game for single player. It promps user whether to hit a new card or stand then calculates total card points.
 
 """
 
